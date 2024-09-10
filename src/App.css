@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato", sans-serif;
+}
+
+.bg-blue {
+  background: #233a95;
+}
+
+.headerWrapper .top-strip {
+  padding: 8px 0px;
+}
+.headerWrapper .top-strip p {
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.headerWrapper .header {
+  width: 100%;
+  height: auto;
+  padding: 15px 0;
+  /* background: #000; */
+}
+.logoWrapper img {
+  width: 100%;
+}
+
+.headerWrapper .header .part2 .countryDrop {
+  width: 150px;
+  height: 50px;
+  color: #000;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 7px;
+  min-width: 170px;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.headerWrapper .header .part2 .countryDrop .label {
+  font-size: 12px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.4) !important;
+  line-height: 16px;
+}
+
+.headerWrapper .header .part2 .countryDrop .name {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #233a95 !important;
+  line-height: 16px;
+}
+
+.headerWrapper .header .part2 .countryDrop span.ml-auto svg {
+  opacity: 0.7;
+}
+
+header .headerSearch {
+  width: 60%;
+  height: 50px;
+  background: #f3f4f7;
+  padding: 10px;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header .headerSearch input {
+  background: transparent;
+  width: 100%;
+  height: 30px;
+  border: 0px;
+  padding: 0px 20px !important;
+  outline: none;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+header .headerSearch button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  z-index: 999;
+  min-width: 40px !important;
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 50%;
+  color: #000;
+}
+
+header .headerSearch button svg {
+  font-size: 25px;
+}
+
+header .part3 .circle {
+  align-items: center;
+  justify-content: center;
+  min-width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+header .part3 .circle svg {
+  font-size: 20px;
+}
