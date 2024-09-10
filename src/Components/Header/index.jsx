@@ -5,6 +5,8 @@ import CountryDropdown from '../CountryDropdown';
 import { IoIosSearch } from "react-icons/io";
 import { Button } from '@mui/material';
 import { FaRegUser } from "react-icons/fa";
+import { IoBagOutline } from "react-icons/io5";
+
 
 
 const Header = () => {
@@ -36,9 +38,13 @@ const Header = () => {
 
                                 <div className="part3 d-flex align-items-center ml-auto">
                                     <Button className='circle mr-3'><FaRegUser /></Button>
-                                    <div className="ml-auto cartTab">
+                                    <div className="ml-auto cartTab d-flex align-items-center">
                                         <span className='price'>$3.29</span>
-                                        <Button className='circle ml-2'></Button>
+                                        <div className="position-relative ml-2">
+                                            <Button className='circle '><IoBagOutline /></Button>
+                                            <span className="count dflex align-items-center justify-content-center">1</span>
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
