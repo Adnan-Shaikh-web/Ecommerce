@@ -13,8 +13,20 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+/* Header Section*/
+
 .bg-blue {
   background: #233a95;
+}
+
+@media (min-width: 1300px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1140px;
+  }
 }
 
 .container {
@@ -33,7 +45,7 @@ body {
 .headerWrapper .header {
   width: 100%;
   height: auto;
-  padding: 15px 0;
+  padding: 25px 0;
   /* background: #000; */
 }
 .logoWrapper img {
@@ -150,4 +162,55 @@ header .part3 .circle svg {
   width: 20px;
   height: 20x;
   text-align: center;
+}
+
+/* Nav Section*/
+
+nav .allCatTab {
+  background: #2bbef9;
+  padding: 8px 15px !important;
+  border-radius: 30px;
+  color: #fff;
+}
+
+nav .allCatTab:hover {
+  background: #2bbef9;
+}
+
+nav .allCatTab .text {
+  font-weight: 600;
+}
+
+nav .allCatTab .icon1 svg {
+  font-size: 20px !important;
+}
+
+nav .allCatTab .icon2 svg {
+  font-size: 15px !important;
+}
+
+nav .navPart2 ul {
+  margin-bottom: 0px;
+}
+
+nav .navPart2 ul li a {
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  padding: 8px 15px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 25px;
+}
+
+nav .navPart2 ul li a svg {
+  font-size: 20px;
+}
+
+nav .navPart2 ul li a:hover {
+  background: #f0faff;
+  color: #2bbef9;
 }
