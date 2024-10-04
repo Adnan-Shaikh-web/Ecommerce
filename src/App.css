@@ -12,6 +12,7 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.8);
+  overflow-x: hidden;
 }
 
 /* Header Section*/
@@ -26,7 +27,7 @@ body {
   .container-md,
   .container-sm,
   .container-xl {
-    max-width: 1140px;
+    max-width: 1200px;
   }
 }
 
@@ -437,9 +438,10 @@ nav .navPart2 ul li:hover .submenu {
   overflow: hidden;
 }
 
-.productRow .hd {
+.hd {
   font-size: 20px;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .viewAllBtn {
@@ -556,4 +558,62 @@ nav .navPart2 ul li:hover .submenu {
 
 .badge-primary {
   background: rgba(13, 110, 253, 1);
+}
+
+.homeCat {
+  padding: 35px 0px;
+}
+
+.homeCat .swiper {
+  overflow: inherit !important;
+}
+
+.homeCat .swiper .item {
+  padding: 15px;
+  width: 100%;
+  height: auto;
+  /* background: #feefea; */
+  border-radius: 10px;
+}
+
+.homeCat .swiper .item img {
+  width: 80%;
+}
+
+.homeCat .swiper-button-prev,
+.homeCat .swiper-button-next {
+  top: -30px !important;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.homeCat .swiper-button-prev {
+  right: 68px !important;
+  left: inherit !important;
+}
+
+.homeCat .swiper-button-prev::after,
+.homeCat .swiper-button-next::after {
+  font-size: 12px;
+}
+
+.productRow2 {
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.productRow2 .productItem {
+  width: 24% !important;
+  overflow: hidden;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.bannerSec {
+  gap: 15px;
+}
+
+.sticky {
+  position: sticky;
+  top: 10px;
+  z-index: 100;
 }
