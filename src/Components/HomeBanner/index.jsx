@@ -14,7 +14,7 @@ const HomeBanner = () => {
         autoplay: true
     };
     return (
-        <div className="homeBannerSection">
+        <div className="homeBannerSection ">
             <Slider {...settings}>
                 <div className="item">
                     <img src={slide1} className='w-100' />
